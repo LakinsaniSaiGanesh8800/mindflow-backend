@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000;
 // Security middleware
 app.use(helmet());
 app.use(cors({
-  origin: "mind-flow-ai-frontend-6ikn.vercel.app",
+  origin: "https://mind-flow-ai-frontend-6ikn.vercel.app",
   credentials: true
 }));
 
